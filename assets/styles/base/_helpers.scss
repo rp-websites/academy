@@ -1,0 +1,93 @@
+
+.show-mobile {
+  display: none !important;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  color: $brand-dark;
+  @extend .circularStd-book;
+}
+
+input::-webkit-input-placeholder {
+  color: $brand-dark;
+  @extend .circularStd-book;
+}
+
+input:-moz-placeholder {
+  color: $brand-dark;
+  @extend .circularStd-book;
+}
+
+input:-ms-input-placeholder {
+  color: $brand-dark;
+  @extend .circularStd-book;
+}
+
+.js-select {
+  width: 100%;
+}
+
+.has-feedback {
+  position: relative;
+}
+
+.feedback-icon {
+  position: absolute;
+  right: 12px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .custom-select.is-invalid {
+  + .feedback-icon {
+    opacity: 1;
+  }
+  &::placeholder {
+    color: $red;
+  }
+  &::-webkit-input-placeholder {
+    color: $red;
+  }
+  &:-moz-placeholder {
+    color: $red;
+  }
+  &::-ms-input-placeholder {
+    color: $red;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  body {
+    overflow-x: hidden;
+  }
+
+}

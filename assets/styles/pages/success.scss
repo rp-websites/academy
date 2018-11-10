@@ -1,0 +1,23 @@
+.success-wrapper {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.success-headline {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.success-form {
+  min-height: 660px;
+}
+
+@media only screen and (max-height: 800px) {
+  .success-form {
+    min-height: 500px;
+  }
+}

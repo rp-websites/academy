@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+// Font mixins
+@mixin font($fontName, $fontNameFile,$fontNameFolder) {
+	@font-face	{
+		font-family: $fontName;
+		src: url("../fonts/#{$fontNameFolder}/#{$fontNameFile}.eot");
+		src: url("../fonts/#{$fontNameFolder}/#{$fontNameFile}.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/#{$fontNameFolder}/#{$fontNameFile}.woff") format("woff"),
+		url("../fonts/#{$fontNameFolder}/#{$fontNameFile}.ttf") format("truetype"),
+		url("../fonts/#{$fontNameFolder}/#{$fontNameFile}.svg#svgFontName") format("svg");
+	}
+}
+
+@include font("CircularStd-Medium", "CircularStd-Medium", circularStd);
+@include font("CircularStd-Book", "CircularStd-Book", circularStd);
+@include font("CircularStd-Black", "CircularStd-Black", circularStd);
+@include font("CircularStd-Bold", "CircularStd-Bold", circularStd);
+.circularStd-medium{
+	font-family: 'CircularStd-Medium', sans-serif;
+	font-weight: normal;
+}
+.circularStd-book{
+	font-family: 'CircularStd-Book', sans-serif;
+	font-weight: normal;
+}
+.circularStd-black{
+	font-family: 'CircularStd-Black', sans-serif;
+	font-weight: normal;
+}
+.circularStd-bold{
+	font-family: 'CircularStd-Bold', sans-serif;
+	font-weight: normal;
+}

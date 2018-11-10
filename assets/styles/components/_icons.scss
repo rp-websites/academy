@@ -1,0 +1,19 @@
+
+.icon-leaves {
+  background: url("#{$images-dir}/leaves.svg") no-repeat center center;
+  display: inline-block;
+  width: 46px;
+  height: 14px;
+}
+.icon-exclamation{
+  background: url("#{$images-dir}/exclamation.svg") no-repeat center center;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+.icon-success{
+  background: url("#{$images-dir}/success.svg") no-repeat center center;
+  display: inline-block;
+  width: 84px;
+  height: 84px;
+}

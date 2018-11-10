@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$red:     #dd0c25 !default;
+$green:   #0e8c80 !default;
+$yellow:  #f0c40c;
+
+$brand-dark: #444444;
+$brand-light-bg: rgba(#96a3c6, 0.3);
+$brand-light: #96a3c6;
+$text-muted: $brand-light;
+
+
+
+// Font sizes
+$font-family-sans-serif: "CircularStd-Medium", sans-serif !default;
+$font-size-base: 1rem;
+
+$body-bg:                   $brand-dark !default;
+$body-color:                #ffffff !default;
+$table-head-bg: #394972 !default;
+$table-border-color: rgba($brand-light, 0.15) !default;
+$table-head-color: #ffffff !default;
+
+$headings-color: #ffffff !default;
+$headings-font-family: "CircularStd-Bold", sans-serif !default;
+
+$input-placeholder-color: $brand-dark !default;
+$input-color: $brand-dark !default;
+$input-border-color: $brand-light-bg !default;
+
+
+$assets-dir: 'assets/' !default;
+$images-dir: '../img' !default;

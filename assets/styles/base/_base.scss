@@ -1,0 +1,68 @@
+
+a, a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  @extend .transition-default;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+button, input, .select2-container {
+  outline: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #f9fcf9;
+}
+
+.wrapper {
+  padding-top: 40px;
+  position: relative;
+}
+
+html {
+  font-size: 14px;
+}
+
+strong {
+  @extend .circularStd-bold;
+}
+.text-green {
+  color: $green;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  color: $brand-dark;
+  font-family: "CircularStd-Bold", sans-serif;
+}
+
+p {
+  font-family: "CircularStd-Book", sans-serif;
+  font-size: 18px;
+  line-height: 1.78;
+  color: $brand-dark;
+}
+
+h2 {
+  font-family: "CircularStd-Bold", sans-serif;
+  color: $brand-dark;
+}
+
+
